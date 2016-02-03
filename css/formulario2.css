@@ -1,0 +1,203 @@
+td{
+	border: 2px solid #212121;
+	
+	
+	word-wrap: break-word;
+	text-align: center;
+}
+img { max-width: 100%;
+	
+}
+table,section
+{
+
+
+	
+}
+
+
+
+h5{
+	margin-top:40px;
+}
+
+
+section.contenedor2{
+	width: 24%;
+	display: inline-block;
+	display: flex;
+	position: fixed;
+	font-size: 13px;
+	line-height: 20px;
+
+	color: blue;
+	background: #F4F4F4;
+}
+#contenedor2, #tablita, #insertar
+{
+	display: inline-block;
+	flex-direction:row;
+	flex-wrap:wrap;
+
+}
+
+#muestrat
+{
+text-decoration: none;
+	background: #F4F4F4;
+
+	word-wrap: break-word;
+	font-size: 20px;
+	color: blue;
+	text-align: left;
+	margin-top: 1%;
+	width: 20%;
+	border: 1em;
+	border-color: black;
+	position: fixed;
+	flex-wrap-wrap;
+	
+
+}
+
+.
+.tablilla{
+	text-align: -webkit-match-parent;
+	margin-bottom: 20%;
+	position: relative;
+	
+    font-size: 13px;
+	line-height: 20px;
+	padding: 15px 385px 5px 120px;
+}
+.tablilla td {
+	
+}
+.tablilla img{
+	max-height: 10%;
+	max-height: 20%;
+	cursor: pointer;
+}
+.tablilla img:hover{
+	max-height: 12%;
+	max-height: 22%;
+	cursor: progress;
+}
+.tablilla a {
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+}
+.tablilla a:hover{
+	text-decoration: none;
+	color:red;
+	font-size: 23px;
+}
+.tablilla a:target{
+	text-decoration: none;
+	color:green;
+	font-size: 23px;
+}
+.contenedor2, .tablilla
+{
+	flex-direction:row;
+  
+	
+	
+	text-align: center;
+	background: white;
+	width: 50%;
+
+	display: flex;
+
+}
+
+.muestrat1
+{
+	text-align: center;
+	color:red;
+	font-family: helvetica;
+}
+.muestrat2
+{
+	text-align: justify;
+	color:blue;
+	font-family: helvetica;
+}
+.conteneedor
+{
+	
+	flex-wrap-wrap;
+	
+}
+.item
+{
+	-webkit-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+}
+#uno:hover
+
+{
+	-ms-transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+
+}
+.itenes
+{
+	-webkit-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+}
+#uno:hover
+{
+	-ms-transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+#dos:hover
+{
+	-ms-transform: rotateX(360deg);
+	-webkit-transform: rotateX(360deg);
+	transform: rotateX(360deg);
+}
+#tres:hover
+{
+	-ms-transform: rotatey(360deg);
+	-webkit-transform: rotateY(360deg);
+	transform: rotatey(360deg);
+}
+
+
+@media (max-width:480px){
+ #muestrat
+ {
+ 	width: 100%;
+  font-size: 10px;
+  color:red;
+  position: relative;
+  text-align: center;
+  margin-bottom: 36px;
+ }
+ }
+ @media (max-width:480px){
+section.contenedor2
+ {
+ 	width: 100%;
+  font-size: 10px;
+  color:red;
+  position: relative;
+  text-align: center;
+  margin-bottom: 36px;
+ }
+ }
+ @media (max-width:480px){
+.tablilla 
+ {
+ 	width: 100%;
+ 	max-height: 60%;
+	max-height: 60%;
+	cursor: pointer;
+ }
+ }
+
+

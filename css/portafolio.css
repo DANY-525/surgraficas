@@ -1,0 +1,482 @@
+
+#portafo{
+	margin-top: 50px;
+	
+	width: 50%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 200px;
+	margin-bottom: 10%;
+
+
+	
+}
+#portafo1{
+	margin-top: 50px;
+	
+	width: 50%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 5%;
+	margin-bottom: 20%;
+
+
+	
+}
+#portafo2{
+	margin-top: 50px;
+	
+	width:50%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 120%;
+	margin-bottom: 50%;
+
+
+
+	
+}
+
+#portafo50{
+	margin-top: -400px;
+	
+	width: 50%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 50%;
+	margin-bottom: 19%;
+
+	
+
+
+	
+}
+#portafo48{
+	
+	
+	width: 50%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 10%;
+	margin-bottom: 19%;
+	margin-top: -15%;
+
+	
+
+
+	
+}
+#portafo47{
+	
+	margin-top: -30%;
+	width: 50%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left:50%;
+	margin-bottom: 19%;
+
+	
+
+
+	
+}
+#portafo2{
+	margin-top:-24%;
+	
+	width: 100%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 60px;
+	margin-bottom: 40%;
+
+
+	
+}
+#conocimientos{
+	margin-top: 100px;
+	
+	width: 33%;
+	height: 100px;
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+	margin-left: 100px;
+	margin-bottom: 10%;
+
+
+}
+#experiencia
+{
+	border-radius: 1em;
+	border-color: orange ;
+	margin-left: 25%;
+	margin-bottom: 10%;
+	width: 33%;
+	
+	word-wrap: break-word;
+	text-align: left;
+	color: orange;
+
+	margin-top: -16.9%;
+	font-size: 15px;
+}
+#clientes2
+{
+	margin-top: -14.9%;
+	width: 7%;
+	margin-left: 55%; 
+	
+	color:orange;
+	margin-bottom: 10%;
+}
+#contactame
+{
+	
+	margin-top: -13.9%;
+	width: 10%;
+	margin-left: 75%; 
+	
+	color:orange;
+	margin-bottom: 10%;
+}
+.interes
+{
+	
+	margin-top: -7.9%;
+	width: 20%;
+	margin-left: 40%; 
+	margin-bottom: 200px;
+	color:orange;
+}
+#fondo1
+{
+
+}
+#experiencia a {
+	color:white;
+}
+
+
+.interes2
+{
+	text-align: left;
+	color: red;
+	font-size: 25px;
+}
+
+.interes2
+{
+	text-align: justify;
+	color: red;
+	font-size: 25px;
+}
+.
+ .porta3 li{
+ 	font-size: 15px;
+
+ }
+ .porta3{
+ 	margin-top: -5%;
+ }
+ .centrar
+ {
+ 	text-align: center;
+ 	color:red;
+ }
+ .centrar1
+ {
+ 	margin-left: 25%;
+ 	color:red;
+ }
+@media (max-width:480px){
+ #portafo1
+ {
+ 	font-size: 12px;
+  width: 100%;
+  
+ }
+ }
+ @media (max-width:480px){
+ #portafo2
+ {
+ 	font-size: 12px;
+ 	margin-top: 10%;
+ margin-left: 0%;
+  width: 100%;
+  margin-bottom: 220%;
+  display: inline-block;
+  text-align: left
+
+ }
+ }
+@media (max-width:480px){
+ #portafo48
+ {
+ 	margin-top: -40%;
+  width: 100%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:480px){
+ #portafo47
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 30%;
+ }
+ }
+ @media (max-width:480px){
+ #conocimientos
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-top: 0%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:480px){
+ #experiencia
+ {
+  width: 100%;
+  margin-left: 5%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:480px){
+ #clientes2
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 50%;
+  word-wrap: break-word;
+ }
+ }
+ @media (max-width:480px){
+ .interes2
+ {
+ margin-left:100%; 
+ text-align: justify;
+ word-wrap: break-word;
+ }
+ }
+ @media (max-width:480px){
+ #contactame
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 50%;
+  text-align: justify;
+  word-wrap: break-word;
+ }
+ }
+ @media (max-width:480px){
+.interes2
+ {
+  width: 100%;
+  margin-left: 13%;
+  text-align: justify;
+  word-wrap: break-word;
+
+ }
+ }
+@media (max-width:728px){
+ #portafo1
+ {
+ 	margin-top: 5%;
+ 	font-size: 20px;
+  width: 100%;
+  
+ }
+ }
+ @media (max-width:728px){
+ #portafo2
+ {
+ 	 height:50%;
+
+ 	font-size: 20px;
+ 	margin-top: 10%;
+ margin-left: 0%;
+  width: 100%;
+  margin-bottom: 220%;
+  
+  text-align: left
+
+ }
+ }
+@media (max-width:728px){
+ #portafo48
+ {
+ 	
+ 	margin-top: 100%;
+  width: 100%;
+  margin-bottom: 12%;
+ }
+ }
+ @media (max-width:728px){
+ #portafo47
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 30%;
+ }
+ }
+ @media (max-width:728px){
+ #conocimientos
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-top: 0%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:728px){
+ #experiencia
+ {
+  width: 100%;
+  margin-left: 5%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:728px){
+ #clientes2
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 50%;
+  word-wrap: break-word;
+ }
+ }
+ @media (max-width:728px){
+ .interes2
+ {
+ margin-left:100%; 
+ text-align: justify;
+ word-wrap: break-word;
+ }
+ }
+ @media (max-width:728px){
+ #contactame
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 50%;
+  text-align: justify;
+  word-wrap: break-word;
+ }
+ }
+ @media (max-width:728px){
+.interes2
+ {
+  width: 100%;
+  margin-left: 13%;
+  text-align: justify;
+  word-wrap: break-word;
+
+ }
+ }
+ @media (max-width:1000px){
+ #portafo1
+ {
+ 	font-size: 12px;
+  width: 100%;
+  
+ }
+ }
+ @media (max-width:1000px){
+ #portafo2
+ {
+ 	font-size: 12px;
+ 	margin-top: 10%;
+ margin-left: 0%;
+  width: 100%;
+  margin-bottom: 220%;
+  display: inline-block;
+  text-align: left
+
+ }
+ }
+@media (max-width:1000px){
+ #portafo48
+ {
+ 	margin-top: 0%;
+  width: 100%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:1000px){
+ #portafo47
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 30%;
+ }
+ }
+ @media (max-width:1000px){
+ #conocimientos
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-top: 0%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:1000px){
+ #experiencia
+ {
+  width: 100%;
+  margin-left: 5%;
+  margin-bottom: 50%;
+ }
+ }
+ @media (max-width:1000px){
+ #clientes2
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 50%;
+  word-wrap: break-word;
+ }
+ }
+ @media (max-width:1000px){
+ .interes2
+ {
+ margin-left:100%; 
+ text-align: justify;
+ word-wrap: break-word;
+ }
+ }
+ @media (max-width:1000px){
+ #contactame
+ {
+  width: 100%;
+  margin-left: 13%;
+  margin-bottom: 50%;
+  text-align: justify;
+  word-wrap: break-word;
+ }
+ }
+ @media (max-width:1000px){
+.interes2
+ {
+  width: 100%;
+  margin-left: 13%;
+  text-align: justify;
+  word-wrap: break-word;
+
+ }
+ }
+

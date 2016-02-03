@@ -1,0 +1,137 @@
+.formulario, .tabla p { text-align: left;}
+
+.formulario div {margin: 1em auto;}
+.formulario legend {font-size: 2em; font-weight: bold;}
+
+
+.paginacion a, .actual
+{
+	color: #EC673A;
+	font-weight:  bold;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.paginacion a:hover, .actual{ color:#1C5F81;}
+.actual {font-size: 3rem;}
+
+
+.tabla  th { background: #292623; color: #EEE; }
+.tabla tr:nth-child(odd) {background: rgba(0,0,0,0.4);}
+
+
+.tabla tr:nth-child(even){background: #31384A;}
+.tabla td { vertical-align: top;}
+
+.tabla p {
+	font-family: verdana:helvetica;
+	font-size: 15px;
+}
+#banner a:hover {
+	background: rgba(51,51,51,0.5);
+}
+
+#tabla-heroes
+{
+	width: 100%;
+	border-collapse: collapse;
+	top: 50%;
+	left: 50%;
+
+}
+tr:nth-of-type(odd){
+	
+}
+td:nth-of-type(odd){
+}
+th:nth-of-type(odd){
+	
+}
+
+#id-tr
+{
+	background: red;
+	color: ;
+	font-weight: bold;
+
+}
+#tabla-heroes td {
+	padding: 5px;
+	border: 1px solid black;
+	
+}
+ #tabla-heroes a {color: #EEE;text-decoration: none;border: 3px solid black;padding 7px;}
+@media screen and (max-width: 768px){
+
+	#tabla-heroes,
+	#tabla-heroes tbody,
+	#tabla-heroes tr,
+	#tabla-heroes td,
+	#tabla-heroes th,
+	.tabla img
+
+}
+@media screen and (max-width:480px){
+
+	#tabla-heroes,
+	#tabla-heroes tbody,
+	#tabla-heroes tr,
+	#tabla-heroes td,
+	#tabla-heroes th,
+
+}
+@media screen and (max-width:1000px){
+
+	#tabla-heroes,
+	#tabla-heroes tbody,
+	#tabla-heroes tr,
+	#tabla-heroes td,
+	#tabla-heroes th,
+
+}
+#id-tr{
+	position: absolute;
+	left: -9999px;
+	top:-9999px;
+
+}
+
+
+
+
+
+
+#tabla-heroe td
+{
+	border:none;
+	position:relative;
+	padding-left: 40%;
+	white-space: normal;
+	text-align: left;
+}
+#tabla-heroe td:before{
+	position:absolute;
+	top: 5px;
+	left:5px;
+	width: 40%;
+	padding-right: 10px;
+	white-space: nowrap;
+	text-align: left;
+	font-weight: bold;
+}
+#tabla-heroe td:before{
+content:attr(TableHeadData);
+}
+
+
+
+
+#editar-productos
+{
+	background: #EEE;
+	padding: 50px;
+	font-size: 50px;
+	text-align: center
+}

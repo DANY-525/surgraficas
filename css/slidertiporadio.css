@@ -1,0 +1,64 @@
+
+.slider5 {
+    
+    width:50%;
+   height:300px;
+    margin: auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   align-items: flex-end;
+    box-shadow: 0 0 0 15px white,
+                0 0 0 35px,
+                0 30px 60px;
+}
+.slider5 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s;
+   
+    
+}
+.slider5 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+        opacity: 0;
+    width: 50%;
+    height: 50%;
+    transition: all 0.7s;
+   
+    
+}
+.slider5 ul li img input label iframe  {
+      display: flex;
+   
+}
+.slider5 input[type="radio"]{
+   display: none;
+}
+.slider5 input[type="radio"]:checked ~ img{
+    opacity: 1;
+}
+.slider5 input[type="radio"] + label {
+    position: relative;
+    z-index: 50;
+    margin: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.slider5 input[type="radio"]:checked + label{
+    background: black;
+    border: 2px solid white;
+} 

@@ -1,0 +1,74 @@
+ 
+ $form .=" <ul class='slider5'>";
+         $form .="<li>";
+                $form .="<input type='radio' id='sbutton1' name='sradio' checked>";
+                $form .= "<label for='sbutton1'></label>";
+                $form .=" <img src='img/almanaques.png' alt="">";
+         $form .="</li>";
+         $form .="<li>";
+                $form .="<input type='radio' id='sbutton2' name='sradio' checked>";
+                $form .= "<label for='sbutton2'></label>";
+                $form .=" <img src='img/bautizos.png' alt="">";
+          $form .="</li>";
+          $form .="<li>";
+                $form .="<input type='radio' id='sbutton3' name='sradio' checked>";
+                $form .= "<label for='sbutton3'></label>";
+                $form .=" <img src='img/banner.png' alt="">";
+          $form .="</li>";
+          $form .="<li>";
+                $form .="<input type='radio' id='sbutton4' name='sradio' checked>";
+                $form .= "<label for='sbutton4'></label>";
+                $form .=" <img src='img/botones.png' alt="">";
+          $form .="</li>";
+    $form.="</ul>";
+
+
+
+
+
+           $form = "<form id='editar-productos' class='formulario' data-editar>";
+    $form .= "<fieldset>";
+         $form .= "<legend>".$fila["nombre"]."</legend>";
+         $form .= "<div>";
+       
+
+         $form .= "</div>";
+         $form .= "<div>";
+              
+                $form .= "<td><img src='img/".$fila["imagen"]."'/></td>";
+
+         $form .= "</div>";
+         $form .= "<div>";
+                $form .= "<label for ='descripcion'>".$fila["descripcion"].":</label>";
+               
+               
+
+         $form .= "</div>";
+         $form .= "</div>";
+               
+           
+         $form .="<div>";
+                 $form .="<input type='submit'  id='actualizar' name='actualizar_btn'
+                 value='Actualizar' />";
+                 $form.="<input type='hidden' id='transaccion'
+                  name='transaccion' value='actualizar' />";
+                  $form.="<input type='hidden' id='idPro'
+                  name='idPro' value='".$fila["idpro"]."' />";
+         $form .="</div>";
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+     $form .= "</fieldset>";
+   $form .= "</form>";
